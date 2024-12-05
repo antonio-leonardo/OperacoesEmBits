@@ -1,7 +1,7 @@
 # C# Operações em Bits
 Projeto trazendo resolução de problemas através de uso de bits de entrada, composto por algoritmos que geram informações oriundas destes bits.
 
-##Situação e Origem do Problema
+## Situação e Origem do Problema
 O submarino tem feito alguns ruídos estranhos, então pede-se o mesmo produza um relatório de diagnóstico, apenas por precaução. O relatório de diagnóstico (o dado de entrada) consiste em uma lista de números binários que, quando decodificados corretamente, podem trazer muitas informações úteis sobre as condições do submarino. O primeiro parâmetro a ser verificado é o consumo de energia. Logo, é necessário usar os números binários no relatório de diagnóstico para gerar dois novos números 
 binários (chamados de taxa gama e taxa épsilon). O consumo de energia pode então ser encontrado multiplicando a taxa gama pela taxa épsilon.
 
@@ -24,3 +24,8 @@ em seguida, multiplique-os. Qual é o consumo de energia do submarino? (Certifiq
 
 ### Modelagem de software utilizada
 O projeto 'Operações em Bits' foi desenvolvido se apropriando de conceitos sobre [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) como ponto de partida para modelagem de software com uso da [linguagem ubíqua](https://engsoftmoderna.info/artigos/ddd.html) e da segregação de camadas (para este projeto foram adotadas as camadas [Domínio e Aplicação](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)); em seguida foi utilizado o Padrão de Projeto [Factory](https://refactoring.guru/design-patterns/factory-method) para prover um objeto maleável de acordo com o tipo de taxa (a ser cálculada) optada pelo desenvolvedor para que realizasse o cálculo de bits mais comuns ou menos comuns.
+
+----------------------
+### Licença
+
+[View MIT license](https://github.com/antonio-leonardo/OperacoesEmBits/blob/main/LICENSE)
